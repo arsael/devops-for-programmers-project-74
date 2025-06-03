@@ -2,11 +2,8 @@ services:
   app:
     build:
       context: .
-      dockerfile: Dockerfile
-    container_name: blog-test
-    working_dir: /app
-    volumes:
-      - ./app:/app
+      dockerfile: Dockerfile.production
+    image: arsael1a/devops-for-programmers-project-74
     environment:
-      - NODE_ENV=test
+      NODE_ENV: production
     command: make test
