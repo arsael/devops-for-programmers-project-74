@@ -36,4 +36,4 @@ To push docker image
 ```bash
 make prod-push
 ```
-## [-> Docker image <-](https://hub.docker.com/repository/docker/arsael1a/devops-for-programmers-project-74/general))
+## [-> Docker image <-](https://hub.docker.com/repository/docker/arsael1a/devops-for-programmers-project-74/general)
